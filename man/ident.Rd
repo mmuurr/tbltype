@@ -4,7 +4,7 @@
 \alias{ident}
 \title{Returns the argument.}
 \usage{
-ident(x = NULL, ...)
+ident(x, ...)
 }
 \arguments{
 \item{x}{The argument to return (unmodified).}
