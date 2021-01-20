@@ -1,13 +1,16 @@
 Package: tbltype
-Title: What the Package Does (One Line, Title Case)
+Title: Declarative Casting Rules for Dataframes and Lists
 Version: 0.0.0.9000
 Authors@R: 
-    person(given = "First",
-           family = "Last",
+    person(given = "Murat",
+           family = "Tasan",
            role = c("aut", "cre"),
-           email = "first.last@example.com",
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
+           email = "mmuurr@gmail.com",
+           comment = c(ORCID = "0000-0002-8155-2565"))
+Description:
+    R isn't a statically-typed language, which confers great flexibility, but sometimes at the expense of runtime errors when dealing with data.
+    This package allows you to specify the type of data you expect for a dataframe (or list), or more accurately: the type of data _downstream_ recipients of your lists and dataframes can reliably expect.
+    Instead of specifying **types**, `tbltype` allows you to declaratively specify **casting** (or coercion) rules (via functions).
 License: `use_mit_license()`, `use_gpl3_license()` or friends to
     pick a license
 Encoding: UTF-8
